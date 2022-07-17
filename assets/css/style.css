@@ -1,0 +1,122 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+main {
+  background-color: black;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+header {
+  height: 73px;
+  text-align: center;
+}
+header h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+  margin: 11.5px;
+}
+#slider {
+  width: 100%;
+  height: 727px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#cont {
+  margin: 0 auto;
+  height: 348px;
+  overflow: hidden;
+}
+article.cont_txt {
+  width: 40%;
+  margin-left: 10%;
+  margin-top: 5%;
+  padding-right: 5%;
+  height: 197px;
+  float: left;
+}
+.cont_txt p {
+  text-align: left;
+  color: white;
+}
+.cont_img {
+  margin-left: 8%;
+  padding-top: 45px;
+  padding-bottom: 66px;
+  float: left;
+}
+#cont_car {
+  height: 348px;
+  width: 100%;
+  background-color: #1e1a13;
+  opacity: 98%;
+  overflow: hidden;
+}
+#cont_car h2 {
+  color: white;
+  text-align: center;
+  font-size: 2.9rem;
+  padding-top: 75px;
+}
+#cont_car > section {
+  width: 75%;
+  margin: 50px auto;
+  overflow: hidden;
+}
+#cont_car > section > div {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+div.car > p {
+  color: white;
+  font-size: xx-large;
+}
+i {
+  color: white;
+  font-size: 60px;
+  padding-bottom: 3%;
+}
+#img_gale {
+  height: 348px;
+  overflow: hidden;
+}
+#img_gale > section {
+  width: 80%;
+  padding-left: 20%;
+  overflow: hidden;
+}
+#img_gale > section > div.foto_gale {
+  width: 25%;
+  padding-top: 73px;
+  padding-left: 1rem;
+  float: left;
+}
+div.foto_gale img {
+  width: 100%;
+  height: 202px;
+  float: left;
+}
+footer {
+  height: 102px;
+  width: 100%;
+  background-color: #1e1a13;
+}
+
+footer p {
+  padding-top: 2%;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+footer a {
+  transition: color 0.4s ease;
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  color: rgb(197, 141, 0);
+}
